@@ -41,20 +41,6 @@ Node* flattenBinaryTree(Node*& root)
 	return root;
 }
 
-void flatten(Node* root)
-{
-	if(root->left != nullptr)
-	{
-		flatten(root->left);
-
-		Node* tmp = root->right;
-		root->right = root->left;
-		root->left = nullptr;
-		root->right->right = tmp;
-
-	}
-}
-
 void displayFlattenBinaryTree(Node* root)
 {	
 	printf("Flattend Tree : [");

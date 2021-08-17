@@ -2,17 +2,6 @@
 
 using namespace std;
 
-class Node
-{
-public:
-	int data;
-	Node* left;
-	Node* right;
-
-	Node(int data): data(data), left(nullptr), right(nullptr) {}
-	Node(int data, Node* left, Node* right): data(data), left(left), right(right) {}
-};
-
 void heapify(int arr[], int n, int i)
 {
 	int largest = i;

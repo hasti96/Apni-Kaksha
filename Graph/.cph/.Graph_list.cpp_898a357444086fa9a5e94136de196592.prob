@@ -1,0 +1,1 @@
+{"name":"Local: Graph_list","url":"c:\\Users\\hasti\\GIT\\Apni-Kaksha\\Graph\\Graph_list.cpp","tests":[{"id":1626779971111,"input":"4 4\n4 1\n4 2\n3 1\n3 2","output":"1 : 3 4\n2 : 3 4\n3 : 2 1\n4 : 2 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\hasti\\GIT\\Apni-Kaksha\\Graph\\Graph_list.cpp","group":"local","local":true}
